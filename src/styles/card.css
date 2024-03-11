@@ -1,0 +1,19 @@
+.card {
+  border-radius: 8px;
+  background: #252b43;
+  text-align: center;
+  padding: 1.7em 0;
+}
+
+.card-followers-number {
+  font-size: 50px;
+  font-weight: 700;
+}
+.card-followers-title {
+  display: block;
+  text-transform: uppercase;
+  color: #8088ad;
+  letter-spacing: 4px;
+  font-size: 0.7em;
+}
+

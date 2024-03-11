@@ -1,0 +1,15 @@
+.calender{
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.button1{
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width:400px) and (max-width:750px){
+    .calender{
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}

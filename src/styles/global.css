@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  color: white;
+  background: #1d2029;
+}
+
+:root {
+  --lime-green: hsl(163, 72%, 41%);
+  --bright-red: hsl(356, 69%, 56%);
+
+  
+  --gray: #9b9ea7;
+  --cardGray: #f0f3fa;
+  --lightGray: #f8f9fe;
+  --cardTitle: #f0f3fa;
+  --baseBackground: white;
+  --baseColor: #1d2029;
+  --switchSpinner: white;
+  --switch: #5f616d;
+}
+
+
+
+.is-dark-mode {
+  --cardGray: #252b43;
+  --baseBackground: #1d2029;
+  --baseColor: white;
+  --gray: #8088ad;
+  --lightGray: #1d2029;
+  --cardTitle: #8088ad;
+  --switchSpinner: #282943;
+  --switch: linear-gradient(to right, #4796d2 0%, #37cebf 100%);
+  --navHome: rgb(0, 200, 255);
+}
+
+.is-light-mode {
+  --gray: #9b9ea7;
+  --cardGray: #f0f3fa;
+  --lightGray: #f8f9fe;
+  --cardTitle: #575a66;
+  --baseBackground: white;
+  --baseColor: #1d2029;
+  --switchSpinner: white;
+  --switch: #5f616d;
+  --navHome:#1d2029;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --cardGray: #252b43;
+    --baseBackground: #1d2029;
+    --baseColor: white;
+    --gray: #8088ad;
+    --lightGray: #1d2029;
+    --cardTitle: #8088ad;
+    --switchSpinner: #282943;
+    --switch: linear-gradient(to right, #4796d2 0%, #37cebf 100%);
+  }
+}
+
+h2 {
+  color: #8088ad;
+}
