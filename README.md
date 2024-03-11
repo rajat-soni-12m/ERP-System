@@ -50,19 +50,20 @@ To run the application locally, follow these steps:
 
 ### Screenshots
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screeshots/dashboard.png)
 
 *Figure 1: Dashboard overview*
 
-![Products Management](screenshots/products.png)
-
+![Products Management](screeshots/products.png)
+![Products Management](screeshots/edit_product.png)
 *Figure 2: Products management page*
 
-![Orders Management](screenshots/orders.png)
-
+![Orders Management](screeshots/orders.png)
+![Orders Management](screeshots/view%20details.png)
 *Figure 3: Orders management page*
 
-![Orders Calendar View](screenshots/calendar.png)
+![Orders Calendar View](screeshots/calender.png)
+![Orders Calendar View](screeshots/calender_order.png)
 
 *Figure 4: Orders calendar view (optional feature)*
 
